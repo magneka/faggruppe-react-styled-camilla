@@ -1,0 +1,8 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css??family=Anonymous');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+body > #root > div {
+  height: 100vh;
+}

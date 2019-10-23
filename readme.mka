@@ -1,0 +1,21 @@
+https://medium.com/@pitipatdop/10-useful-tips-for-styled-components-b7710b021e6a
+
+Artikkel om styling av forms
+https://medium.com/@fionnachan/building-a-react-component-library-with-styled-components-input-field-c79c789387ad
+
+FYI: 
+index.js er tømt slik at den bare peker på en komponent AppRootComponent
+Dette er gjort fordi man ikke kan ha logikk i øverste nivå i index.js
+Her trengs det logikk for å skjule/vise meny fra burgericon, den er da
+lagt i en component: AppRootComponent.
+
+Ved oppretting av nytt prosjekt er ikke index.js så tom som dette.
+
+Legge til nye sider:
+1. Opprett component under pages
+
+2. Registrer URL til siden i AppRootComponent på denne måten:
+   <Route path="/tripleExample1" component={TripleExample1} />
+
+3. Legg til punkt i menyen som peker på siden på denne måten
+   <MenuLevel3Component caption="TripleEx1" cto="/tripleExample1" />
